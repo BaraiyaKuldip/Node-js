@@ -2,20 +2,20 @@
 // array = [ 0,1,0,1,0,0,0,0,1,1,0 ]
 function findSpaces() {
     let numbers = [0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0];
+    let numbers2 = numbers ;
+//     console.log(numbers2);
     let temp = 1;
     let count = 0;
     let size = numbers.length;
     let flash = 1;
-    let ans = 0;
-
     for (count = 0; count <= (size - 1); count++) {
          if (numbers[count] == numbers[temp + flash])
          {
-            ans = ans + 1 ;
+              numbers2[count + 1] = " * ";
          }
          flash++;
     }
-    console.log(ans);
+    console.log(numbers);
 }
 
 findSpaces();
