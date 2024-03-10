@@ -14,18 +14,18 @@ var server = http.createServer(function(request,response){
 server.listen(5000);
 console.log("server is ready ...");
 
-let printTriangle = function (){
+// let printTriangle = function (){
     
-    for (let j = 1; j <= 5; j++)
-    {
-        for (let i = 1; i <= 5; i++)
-        {
-            document.getElementById('idid').innerHTML += "*" ;
+//     for (let j = 1; j <= 5; j++)
+//     {
+//         for (let i = 1; i <= 5; i++)
+//         {
+//             document.getElementById('idid').innerHTML += "*" ;
             
-        }
-        document.getElementById('idid').innerHTML += "<br>" ;
+//         }
+//         document.getElementById('idid').innerHTML += "<br>" ;
         
-    }
+//     }
 
-}
+// }
 
