@@ -16,19 +16,16 @@ console.log("server is ready ...");
 
 let printTriangle = function (){
     
-    for (let j = 1; j <= 5; j++)
+    let i = 1;
+    let print = '';
+
+    for (i=1;i<=5;i++)
     {
-        for (let i = 1; i <= 5; i++)
-        {
-            // document.getElementById('idid').innerHTML += "*" ;
-            console.log('*');
-            
-        }
-        // document.getElementById('idid').innerHTML += "<br>" ;
-        console.log()
-        
+        print += '*';
+        console.log(print);
     }
 
+    document.getElementById('idid').innerHTML = print ;
 }
 
 
