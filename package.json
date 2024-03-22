@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "express": "^4.19.1"
+    "express": "^4.19.1",
+    "qrcode": "^1.5.3"
   }
 }
