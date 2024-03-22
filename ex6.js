@@ -4,12 +4,6 @@
 
 var QRCode = require('qrcode')
 
-QRCode.toDataURL('I am a pony!', function (err, url) {
-  console.log(url)
-});
-
-var QRCode = require('qrcode')
-
 QRCode.toString('https://github.com/parampatel07/frontend27/',{type:'terminal'}, function (err, url) {
   console.log(url)
 });
