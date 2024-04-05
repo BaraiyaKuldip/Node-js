@@ -1,0 +1,22 @@
+SELECT * FROM `payments` ;
+
+
+SELECT * from payments WHERE paymentDate >'2004-12-31'; 
+
+
+SELECT * from payments order by amount; 
+
+
+SELECT * from products WHERE buyPrice < 50 and MSRP > 70 order by productline desc; 
+
+
+select * from orders where comments is null; 
+
+
+select * from orders where comments is not null; 
+
+
+SELECT * FROM employees where lastName like 'k%'; 
+
+
+SELECT * FROM employees where lastName like '%n' and jobTitle = 'Sales Rep'; 
