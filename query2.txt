@@ -1,0 +1,17 @@
+SELECT p.productName , p.quantityInStock , p.buyPrice , p.MSRP , pl.textDescription from products as p , productlines as pl WHERE p.productLine = pl.productLine; 
+
+
+
+SELECT od.* , o.requiredDate , o.shippedDate , o.status from orderdetails as od, orders as o where o.orderNumber = od.orderNumber; 
+
+
+
+SELECT od.* , o.requiredDate , o.shippedDate , o.status from orderdetails as od, orders as o where o.orderNumber = od.orderNumber and od.priceEach > 100; 
+
+
+
+SELECT COUNT(*) from customers; 
+
+
+
+SELECT COUNT(*) from orderdetails where priceEach < 100; 
