@@ -56,3 +56,21 @@
 
 
 
+11. SELECT names , salaries FROM employees ORDER by salaries desc ;
+
+
+
+
+
+13. DELETE from employees where salary < 40000 ;
+
+
+
+
+
+14. SELECT names from employees where managerId is null ;
+
+
+
+
+15. SELECT e.employeeName , d.departmentName from employees as e , department as d where d.departmentName = "IT";
