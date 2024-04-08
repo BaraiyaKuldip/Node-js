@@ -27,6 +27,12 @@
 
 
 
+6. SELECT SUM(amount) , AVG(amount) from payments;  
+
+
+
+
+
 7. SELECT * from payments where paymentDate > "2004-05-01" and paymentDate < "2004-05-31"; 
 
 
