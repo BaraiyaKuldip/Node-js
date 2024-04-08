@@ -1,0 +1,52 @@
+1. INSERT INTO payments(customerNumber,checkNumber,paymentDate,amount) VALUES(1234567,"ABCD0000",2024-04-07,123456); 
+
+
+
+
+2. DELETE from customers where customerNumber = 120 ;
+
+
+
+
+
+3. UPDATE customers set creditLimit = 10000; 
+
+
+
+
+
+4. SELECT * FROM customers WHERE country = "USA" and state = "CA"; 
+
+
+
+
+
+5. SELECT * from customers where customerName like '%co.%'; 
+
+
+
+
+
+7. SELECT * from payments where paymentDate > "2004-05-01" and paymentDate < "2004-05-31"; 
+
+
+
+
+
+8. SELECT customerNumber , customerName , country , state , city from customers order by country; 
+
+
+
+
+
+9. DELETE from customers where country = "australia"; 
+
+
+
+
+
+10. SELECT customerNumber , customerName , city , state , country from customers where country = "USA"; 
+
+
+
+
